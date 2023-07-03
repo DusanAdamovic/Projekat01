@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+h1, h2, h3, h4, h5, h6, .nav, .navbar {
+	font-family:  Monospace;
+	
+	
+}
+
+h1{    
+		padding-top:15px;
+}
+
+h3{ 
+		padding-top:20px;
+		padding-left:15px;
+}
+
+body {
+	font-family:  Monospace;
+    max-width: 80%;
+    margin: auto;
+	
+}
+
+.pojedin_sekcija {
+	min-height: 98vh;
+	
+	
+}
+
+.sekcija-dark {
+	background-color: white;
+	background-color: SeaGreen;
+    color: white;
+
+}
+
+.sekcija-light {
+	background-color: white;
+	color: black;
+
+}
+
+.sekcija-dobrodosli {
+	background-image: url('Pozadina.jpg');
+	background-size: cover;
+	color: black;
+	background-size: cover;
+
+}
+
+.jumbotron{
+	  margin-top:50px;
+	  padding:50px;
+	  background-color: SeaGreen;
+	  color: white;
+	  border-radius: 75px;
+	 
+
+}
+
+
+
+.sekcija-dark .nav-tabs a {
+	color: black;
+	
+}
+
+.container {
+	position: relative;
+	border-radius: 25px;
+  }
+  .center1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+  }
+  
+  .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: SeaGreen;
+  }
+  
+  .container:hover .overlay {
+	opacity: 1;
+  }
+  
+  .text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+  }
+
+  .center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
+
+
+
+	
+
+
+
+
+
